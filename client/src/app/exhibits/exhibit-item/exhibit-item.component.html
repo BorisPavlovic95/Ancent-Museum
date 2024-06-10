@@ -1,0 +1,20 @@
+<div class="card h-100 shadow-sm exhibit-card" *ngIf="exhibit">
+  <div class="image position-relative">
+      <img src="{{exhibit.pictureUrl}}" alt="{{exhibit.name}}" class="img-fluid" id="slika">
+      <div class="overlay d-flex align-items-center justify-content-center">
+          <button (click)="addItemToPlanner()" class="btn btn-primary me-2"> Add to planner</button>
+          <button [routerLink]="['/exhibits', exhibit.id]" class="btn btn-primary">View</button>
+
+      </div>
+  </div>
+  <div class="card-body d-flex flex-column">
+      <a href="" class="text-decoration-none">
+          <h6 class="text-uppercase">{{exhibit.name}}</h6>
+          <p>{{exhibit.description}}</p>
+      </a>
+      <div class="details">
+          <span class="mb-2"><strong>Duration:</strong> {{exhibit.tourTime}} minutes</span>
+          <span class="mb-2"><strong>Price:</strong> {{exhibit.price | currency}}</span>
+      </div>
+  </div>
+</div>

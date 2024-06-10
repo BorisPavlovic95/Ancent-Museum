@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Client</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<style>
+  .chat-sign-button {
+      width: 60px;
+      height: 60px;
+      font-size: 20px;
+  }
+</style>
+<body>
+  <app-root></app-root>
+  <div class="container">
+
+    <!-- Dugme za pokretanje ceta -->
+    <button id="chat-widget-button" type="button"
+        class="btn btn-danger rounded-circle position-fixed chat-sign-button" style="bottom: 50px; right: 50px;">
+    </button>
+
+    <!-- Sadrzaj četa -->
+    <div id="chat-widget" class="card position-fixed shadow d-none"
+        style="bottom: 130px; right: 20px; width: 350px;">
+
+        <div class="card-header bg-primary text-white">
+            Sadrčaj rasa četa
+            <button id="chat-widget-close-button" type="button" class="btn-close float-end"
+                aria-label="Zatvori"></button>
+        </div>
+
+        <!-- Mesto prikazivanja poruka -->
+        <div class="card-body" id="chat-widget-messages">
+            <!-- ... poruke se prikazuju na ovom mestu ... -->
+        </div>
+
+        <div class="card-footer">
+            <input type="text" class="form-control" id="chat-widget-input" placeholder="Unesite poruku">
+        </div>
+    </div> <!-- Kraj sadrzaja četa -->
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#chat-widget-button").on("click", function () {
+            $("#chat-widget").toggleClass("d-none")
+        });
+
+
+        $("#chat-widget-close-button").on("click", function () {
+            $("#chat-widget").addClass("d-none")
+        });
+
+        //Korisnički unosi u input polje četbota
+        $("#chat-widget-input").keypress(function (event) {
+            //13 predstavlja Enter dugme na tastaturi
+            if (event.which === 13) {
+                let userMessage = $("#chat-widget-input").val()
+                $("#chat-widget-input").val("");
+
+                //Radimo append korisničke poruke ka četu (chatbox-u) 
+                $("#chat-widget-messages").append("<div><strong>Vi:</strong> " + userMessage + "</div>");
+
+                //Upucivanje korisnicke poruke prema serveru i GET odgovora bota
+                $.ajax({
+                    type: "POST",
+                    url: "http://localhost:5005/webhooks/rest/webhook",
+                    contentType: "application/json",
+                    data: JSON.stringify({ message: userMessage }),
+                    success: function(data){
+                        let botResponse = data[0].text;
+                        console.log(botResponse);
+                        //Apendovanje odgovora čet bota prema četboksu
+                        $("#chat-widget-messages").append("<div><strong>ChatBot:</strong> " + botResponse + "</div>");
+                    },
+
+                    error: function() {
+                        //... ukoliko ima potrebe, generisati greške
+                    }
+                });
+            }
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<div class="d-flex justify-content-center mt-5">
+    <div class="col-3">
+      <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+        <div class="text-center mb-4">
+          <h1 class="mb-3">
+            Sign up
+          </h1>
+        </div>
+  
+        <app-input-text [formControl]="registerForm.controls['displayName']" [label]="'Display Name'"></app-input-text>
+        <app-input-text  [formControl]="registerForm.controls['email']" [label]="'Email Address'"></app-input-text>
+        <app-input-text  [formControl]="registerForm.controls['password']" type="'password'" [label]="'Password'"></app-input-text>
+  
+        <!-- Include address fields in the form -->
+        <div>
+          <h2 class="mt-3">Address Information</h2>
+          <app-input-text  [formControl]="addressForm.controls['firstName']" [label]="'First Name'"></app-input-text>
+          <app-input-text  [formControl]="addressForm.controls['lastName']" [label]="'Last Name'"></app-input-text>
+          <app-input-text  [formControl]="addressForm.controls['phone']" [label]="'Phone'"></app-input-text>
+          <app-input-text  [formControl]="addressForm.controls['birthday']" [label]="'Birthday'"></app-input-text>
+          <app-input-text  [formControl]="addressForm.controls['favoriteExhibit']" [label]="'Favorite Exhibit'"></app-input-text>
+          <app-input-text  [formControl]="addressForm.controls['city']" [label]="'City'"></app-input-text>
+          <!-- Add other address fields as needed -->
+        </div>
+  
+        <ul class="text-danger list-unstyled" *ngIf="errors">
+          <li *ngFor="let error of errors">
+            {{ error }}
+          </li>
+        </ul>
+  
+        <div class="d-grid">
+          <button [disabled]="registerForm.invalid" class="btn btn-lg btn-primary mt-3" type="submit">Sign up</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  

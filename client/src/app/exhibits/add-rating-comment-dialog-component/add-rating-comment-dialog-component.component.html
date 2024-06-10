@@ -1,0 +1,25 @@
+<!-- Button to close the dialog -->
+<button mat-icon-button (click)="closeDialog()">
+    <mat-icon>close</mat-icon>
+</button>
+
+<!-- Form for leaving rating and comment -->
+<mat-dialog-content *ngIf="data.tourItem">
+    
+    <form [formGroup]="ratingForm" (ngSubmit)="submitRating()">
+        <rating [(ngModel)]="selectedStars" [max]="5" [readonly]="false" [ngModelOptions]="{standalone: true}"></rating>
+    
+        <mat-form-field>
+            <mat-label>Comment</mat-label>
+            <textarea matInput formControlName="comment" rows="5"></textarea>
+        </mat-form-field>
+    
+        <mat-dialog-actions>
+            <button mat-button color="primary" type="submit">Leave a comment</button>
+        </mat-dialog-actions>
+    </form>
+    
+    
+    
+    
+</mat-dialog-content>

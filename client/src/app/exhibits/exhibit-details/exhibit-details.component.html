@@ -1,0 +1,38 @@
+<!-- exhibit-details.component.html -->
+
+<div class="card h-100 shadow-sm exhibit-details" *ngIf="exhibit">
+    <div class="image position-relative">
+      <img src="{{exhibit.pictureUrl}}" alt="{{exhibit.name}}" class="img-fluid" id="slika">
+    </div>
+    <div class="card-body d-flex flex-column">
+      <h6 class="text-uppercase">{{exhibit.name}}</h6>
+      <p>{{exhibit.description}}</p>
+      <div class="details">
+        <span class="mb-2"><strong>Duration:</strong> {{exhibit.tourTime}} minutes</span>
+        <span class="mb-2"><strong>Price:</strong> {{exhibit.price | currency}}</span>
+        <span class="mb-2"><strong>Culture:</strong> {{exhibit.exhibitCulture}}</span>
+      </div>
+    </div>
+  </div>
+  
+<div class="container">
+  <div *ngIf="comments$ | async as comments; else loading" class="comments-list">
+    <h2>Comments</h2>
+    <ul class="comments">
+      <li *ngFor="let comment of comments" class="comment">
+        <p class="user-id">User: {{ comment.userId }}</p>
+        <p>Rating: <span class="rating">{{ getStarRating(comment.rating) }}</span></p>
+        <p>Comment: {{ comment.comment }}</p>
+      </li>
+    </ul>
+  </div>
+
+  <ng-template #loading>
+    <div class="loading-message-container">
+      <p class="loading-message">Loading comments...</p>
+    </div>
+  </ng-template>
+</div>
+  
+
+  

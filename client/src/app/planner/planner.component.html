@@ -1,0 +1,54 @@
+<div class="container mt-5">
+    <div *ngIf="(plannerService.plannerSource$ | async) === null">
+        <p>There are no items in your basket</p>
+    </div>
+
+    <ng-container *ngIf="(plannerService.plannerSource$ | async) as planner">
+        <div class="container">
+            <div class="row">
+                <div class="table-responsive">
+                    <table class="table">
+                        <!-- Table header -->
+                        <thead class="bg-light text-uppercase">
+                            <tr>
+                                <th><div class="py-2">Exhibit name</div></th>
+                                <th><div class="py-2">Price</div></th>
+                                <th><div class="py-2">Remove</div></th>
+                            </tr>
+                        </thead>
+                        <!-- Table body -->
+                        <tbody>
+                            <!-- Iterate over items -->
+                            <tr *ngFor="let item of planner.items">
+                                <th>
+                                    <div class="p-2 d-inline-block">
+                                        <img src="{{item.pictureUrl}}" alt="" class="img-fluid" style="height: 100px; width: 100px; max-width: 100px; max-height: 100px;">
+                                        <div class="ms-3 d-inline-block align-middle">
+                                            <h5 class="mb-0">
+                                                <a routerLink="/exhibits/{{item.id}}" class="text-dark text-decoration-none">
+                                                    {{item.exhibitName}}
+                                                </a>
+                                                <span class="text-muted fst-italic">
+                                                    Type: {{item.type}}
+                                                </span>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </th>
+                                <td class="align-middle"><strong>{{item.price | currency}}</strong></td>
+                                <td class="align-middle">
+                                    <a class="text-danger">
+                                        <i (click)="removeItem(item)" class="fa fa-trash" style="font-size: 2em;cursor: pointer;"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Total price -->
+                <div class="total-price">Total Price: {{ calculateTotalPrice(planner.items) | currency }}</div>
+                <button (click)="submitTour()">Create tour</button>
+            </div>
+        </div>
+    </ng-container>
+</div>

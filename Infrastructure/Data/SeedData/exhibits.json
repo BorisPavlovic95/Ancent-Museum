@@ -1,0 +1,284 @@
+[
+  {
+    "Name": "Cinerarium with Human Remains",
+    "Century": "1st Century BCE-2nd Century CE",
+    "Period": "Roman Period",
+    "PictureUrl": "images/exhibits/e-1.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 20,
+    "Price": 5,
+    "ExhibitCultureId": 1,
+    "ExhibitTypeId": 1
+  },
+  {
+    "Name": "Spoon",
+    "Century": "2nd-5th Century CE",
+    "Period": "Roman Imperial Period",
+    "PictureUrl": "images/exhibits/e-2.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 20,
+    "Price": 5,
+    "ExhibitCultureId": 1,
+    "ExhibitTypeId": 2
+
+
+  },
+  {
+    "Name": "Alexander the Great",
+    "Century": "2nd-3rd Century CE",
+    "Period": "Roman Imperial Period, Middle",
+    "PictureUrl": "images/exhibits/e-3.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 10,
+    "Price": 10,
+    "ExhibitCultureId": 1,
+    "ExhibitTypeId": 3
+
+  },
+  {
+    "Name": "Youthful Hero or God",
+    "Century": "1st-2nd Century CE",
+    "Period": "Roman Imperial Period",
+    "PictureUrl": "images/exhibits/e-4.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 30,
+    "Price": 2,
+    "ExhibitCultureId": 1,
+    "ExhibitTypeId": 3
+  },
+  {
+    "Name": "Aureus of Septimius Severus",
+    "Century": "3rd Century CE",
+    "Period": "Roman Imperial Period, Middle",
+    "PictureUrl": "images/exhibits/e-5.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 10,
+    "Price": 2,
+    "ExhibitCultureId": 1,
+    "ExhibitTypeId": 4
+  },
+  {
+    "Name": "Head of a Cat",
+    "Century": "7th-1st Century BCE",
+    "Period": "Late Period to Ptolemaic",
+    "PictureUrl": "images/exhibits/e-6.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 10,
+    "Price": 5,
+    "ExhibitCultureId": 2,
+    "ExhibitTypeId": 3
+  },
+  {
+    "Name": "Inscribed Arrowhead",
+    "Century": "4th Century BCE",
+    "Period": "Classical Period, Late",
+    "PictureUrl": "images/exhibits/e-7.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 20,
+    "Price": 2,
+    "ExhibitCultureId": 3,
+    "ExhibitTypeId": 5
+  },
+  {
+    "Name": "Helmet of Corinthian Type",
+    "Century": "6th Century BCE",
+    "classification": "Armor",
+    "Period": "Archaic Period",
+    "PictureUrl": "images/exhibits/e-8.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 30,
+    "Price": 10,
+    "ExhibitCultureId": 3,
+    "ExhibitTypeId": 6
+  },
+  {
+    "Name": "Head of Warrior",
+    "Century": "1st Century BCE-1st Century CE",
+    "Period": "Hellenistic Period, Early",
+    "PictureUrl": "images/exhibits/e-9.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 30,
+    "Price": 2,
+    "ExhibitCultureId": 3,
+    "ExhibitTypeId": 3
+  },
+  {
+    "Name": "Spiral Armlet",
+    "Century": "15th-13th Century BCE",
+    "classification": "Jewelry",
+    "Period": "Bronze Age, Late",
+    "PictureUrl": "images/exhibits/e-10.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 20,
+    "Price": 5,
+    "ExhibitCultureId": 3,
+    "ExhibitTypeId": 7
+  },
+  {
+    "Name": "Nomos of Tarentum",
+    "Century": "6th Century BCE",
+    "Period": "Archaic Period",
+    "PictureUrl": "images/exhibits/e-11.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 30,
+    "Price": 10,
+    "ExhibitCultureId": 3,
+    "ExhibitTypeId": 4
+  },
+  {
+    "Name": "Stater of Tarentum",
+    "Century": "3rd Century BCE",
+    "Period": "Hellenistic Period, Early",
+    "PictureUrl": "images/exhibits/e-12.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 10,
+    "Price": 5,
+    "ExhibitCultureId": 3,
+    "ExhibitTypeId": 4
+  },
+  {
+    "Name": "Nestoris with Mythological Scenes",
+    "Century": "4th Century BCE",
+    "Period": "Classical Period, Late, to Early Hellenistic",
+    "PictureUrl": "images/exhibits/e-13.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 20,
+    "Price": 10,
+    "ExhibitCultureId": 3,
+    "ExhibitTypeId": 1
+  },
+  {
+    "Name": "Seated Bodhisattva Tara",
+    "Century": "15th Century",
+    "Period": "Ming dynasty, 1368-1644",
+    "PictureUrl": "images/exhibits/e-14.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 30,
+    "Price": 2,
+    "ExhibitCultureId": 5,
+    "ExhibitTypeId": 3
+  },
+  {
+    "Name": "Ritual Wine Vessel",
+    "Century": "10th Century BCE",
+    "Period": "Zhou dynasty, Western Zhou Period, c. 1050-771 BCE",
+    "PictureUrl": "images/exhibits/e-15.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 10,
+    "Price": 2,
+    "ExhibitCultureId": 5,
+    "ExhibitTypeId": 1
+  },
+  {
+    "Name": "Buddha in Abhaya-mudra",
+    "Century": "5th Century",
+    "Period": "Northern Wei, 386-534",
+    "PictureUrl": "images/exhibits/e-16.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 20,
+    "Price": 10,
+    "ExhibitCultureId": 5,
+    "ExhibitTypeId": 3
+  },
+  {
+    "Name": "Budong Mingwang",
+    "Century": "18th Century",
+    "Period": "Qing dynasty, 1644-1911",
+    "PictureUrl": "images/exhibits/e-17.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 10,
+    "Price": 5,
+    "ExhibitCultureId": 5,
+    "ExhibitTypeId": 8
+  },
+  {
+
+    "Name": "Pair of Hoop Earrings",
+    "Century": "19th-20th Century",
+    "Period": "Northern Wei, 386-534",
+    "PictureUrl": "images/exhibits/e-18.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 30,
+    "Price": 2,
+    "ExhibitCultureId": 5,
+    "ExhibitTypeId": 7
+  },
+  {
+    "Name": "Tunic Ornament",
+    "Century": "5th-6th Century",
+    "Period": "Byzantine Period, Early",
+    "PictureUrl": "images/exhibits/e-19.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 10,
+    "Price": 10,
+    "ExhibitCultureId": 4,
+    "ExhibitTypeId": 8
+  },
+  {
+    "Name": "Roundel: Putto on a Horse",
+    "Century": "6th Century",
+    "Period": "Byzantine Period, Early",
+    "PictureUrl": "images/exhibits/e-20.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 10,
+    "Price": 2,
+    "ExhibitCultureId": 4,
+    "ExhibitTypeId": 8
+  },
+  {
+    "Name": "Pentanummium of Justin II, Constantinople",
+    "Century": "6th Century",
+    "Period": "Byzantine Period, Early",
+    "PictureUrl": "images/exhibits/e-21.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 10,
+    "Price": 5,
+    "ExhibitCultureId": 4,
+    "ExhibitTypeId": 4
+  },
+  {
+    "Name": "Seated Cat",
+    "Century": "mid 7th-late 1st Century BCE",
+    "Period": "Late Period to Ptolemaic",
+    "PictureUrl": "images/exhibits/e-22.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 20,
+    "Price": 2,
+    "ExhibitCultureId": 2,
+    "ExhibitTypeId": 3
+  },
+  {
+    "Name": "Seated Woman",
+    "Century": "7th Century BCE",
+    "Period": "Late Period, Dynasty 26",
+    "PictureUrl": "images/exhibits/e-23.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 20,
+    "Price": 5,
+    "ExhibitCultureId": 2,
+    "ExhibitTypeId": 3
+  },
+  {
+    "Name": "Luster bowl",
+    "Century": "11th Century",
+    "Period": "Fatimid Period",
+    "PictureUrl": "images/exhibits/e-24.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 10,
+    "Price": 10,
+    "ExhibitCultureId": 2,
+    "ExhibitTypeId": 1
+  },
+  {
+    "Name": "Fragment of an Offering Basin",
+    "Century": "3rd-2nd millennium BCE",
+    "Period": "Middle Kingdom",
+    "PictureUrl": "images/exhibits/e-25.jpg",
+    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum eleifend elit, ac auctor sapien porta eget. Sed vel nisl ornare elit scelerisque facilisis. Praesent egestas sit amet turpis vitae pellentesque. Morbi ultricies vulputate massa vitae dictum. Praesent lorem justo, hendrerit sed sollicitudin eu, convallis at magna. Aenean ut nisi lobortis, egestas nisi maximus, hendrerit eros. Morbi at nisl eget metus pharetra semper.",
+    "TourTime": 20,
+    "Price": 10,
+    "ExhibitCultureId": 2,
+    "ExhibitTypeId": 3
+  }
+  
+]

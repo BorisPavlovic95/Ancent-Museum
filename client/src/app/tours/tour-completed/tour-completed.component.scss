@@ -1,0 +1,91 @@
+.tour-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url('../../../assets/tourdetail.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+.tour-list h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.tour-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.tour-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.tour-info-item {
+  flex: 1;
+  text-align: left;
+}
+
+.property-name {
+  font-weight: bold;
+  color: rgba(255, 155, 0, 1);
+  margin-bottom: 5px;
+}
+
+
+
+.tour-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.exhibit-info {
+  width: 80%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.exhibit-info img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.details {
+  text-align: center;
+}
+
+.details h4 {
+  margin-bottom: 5px;
+}
+
+.details p {
+  color: #666;
+  margin: 0;
+  border-bottom: 1px dashed lightgrey;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.buttons button {
+  margin-right: 10px;
+}

@@ -1,0 +1,36 @@
+<div *ngIf="completedTours && completedTours.length">
+  <div class="tour-list">
+    <div *ngFor="let tour of completedTours" class="tour-card">
+      <p>{{ tour.id}}</p>
+      <div class="tour-info">
+        <div *ngFor="let property of tourProperties(tour)" class="tour-info-item">
+          <p class="property-name">{{ property.name }}:</p>
+          <p class="property-value">{{ property.value }}</p>
+        </div>
+      </div>
+      <div *ngFor="let tourItem of tour.tourItems" class="tour-item">
+        <div class="exhibit-info">
+          <img [src]="tourItem.pictureUrl" alt="{{ tourItem.exhibitName }}">
+          <div class="details">
+            <h4>{{ tourItem.exhibitName }}</h4>
+            <p>Price: {{ tourItem.price }}</p>
+            <mat-dialog-actions>
+              <mat-dialog-actions>
+                <button mat-button color="primary" (click)="openAddRatingDialog(tour,tourItem)">Leave a comment</button>
+
+
+            </mat-dialog-actions>
+
+            </mat-dialog-actions>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="!completedTours || completedTours.length === 0">
+  <p>No tour orders available.</p>
+</div>
+
+

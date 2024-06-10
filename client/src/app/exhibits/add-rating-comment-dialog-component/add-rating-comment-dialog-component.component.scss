@@ -1,0 +1,47 @@
+
+button[mat-icon-button] {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  mat-icon {
+    color: #333; 
+    font-size: 24px; 
+  }
+  
+  mat-dialog-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; 
+  }
+  
+ 
+  form {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+ 
+  rating {
+    margin-bottom: 20px; 
+  }
+  
+ 
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 20px; 
+  }
+  
+ 
+  mat-dialog-actions {
+    display: flex;
+    justify-content: center;
+  
+    button {
+      margin: 0 10px; 
+    }
+  }
+  

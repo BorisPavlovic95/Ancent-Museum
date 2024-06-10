@@ -1,0 +1,33 @@
+<!-- profile.component.html -->
+<div class="profile-container" *ngIf="userProfile">
+    <h2>{{ userProfile.displayName }}'s Profile</h2>
+    <form (ngSubmit)="updateProfile()" class="profile-form">
+        <label for="displayName">Display Name:</label>
+        <input id="displayName" [(ngModel)]="userProfile.displayName" name="displayName" />
+
+        <label for="email">Email:</label>
+        <input id="email" [(ngModel)]="userProfile.email" name="email"  />
+
+        <label for="firstName">First Name:</label>
+        <input id="firstName" [(ngModel)]="userProfile.address.firstName" name="firstName" />
+
+        <label for="lastName">Last Name:</label>
+        <input id="lastName" [(ngModel)]="userProfile.address.lastName" name="lastName" />
+
+        <label for="phone">Phone:</label>
+        <input id="phone" [(ngModel)]="userProfile.address.phone" name="phone" />
+
+        <label for="birthday">Birthday:</label>
+        <input id="birthday" [(ngModel)]="userProfile.address.birthday" name="birthday" />
+
+        <label for="favoriteExhibit">Favorite Exhibit:</label>
+        <input id="favoriteExhibit" [(ngModel)]="userProfile.address.favoriteExhibit" name="favoriteExhibit" />
+
+        <label for="city">City:</label>
+        <input id="city" [(ngModel)]="userProfile.address.city" name="city" />
+
+        <!-- Add other form fields for additional properties -->
+
+        <button type="submit">Update Profile</button>
+    </form>
+</div>

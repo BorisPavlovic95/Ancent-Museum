@@ -1,0 +1,44 @@
+
+
+  <div class="tour-details-container"*ngIf="tour">
+    <div class="tour-details">
+      <table>
+        <tr *ngIf="tour.userData">
+          <td colspan="2"><h3>User Data:</h3></td>
+        </tr>
+        <tr>
+          <td><strong>User Email:</strong></td>
+          <td>{{ tour.userEmail }}</td>
+        </tr>
+        <tr *ngIf="tour.userData">
+          <td><strong>First Name:</strong></td>
+          <td>{{ tour.userData.firstName }}</td>
+        </tr>
+        <!-- Add other user data fields similarly -->
+        <tr *ngIf="tour.tourItems && tour.tourItems.length > 0">
+          <td colspan="2"><h3>Tour Items:</h3></td>
+        </tr>
+        <ng-container *ngFor="let item of tour.tourItems">
+          <tr>
+            <td><strong>Exhibit Name:</strong></td>
+            <td>{{ item.exhibitName }}</td>
+          </tr>
+          <tr>
+            <td><strong>Price:</strong></td>
+            <td>{{ item.price }}</td>
+          </tr>
+        </ng-container>
+        <!-- You can add more details about tour items here -->
+      </table>
+      <div class="button-wrapper">
+        <a [routerLink]="['../editTour/', tour.id]" class="button-link">Update Tour</a>
+      </div>
+    </div>
+  </div>
+  
+  
+
+
+  
+
+ 

@@ -1,0 +1,40 @@
+/* profile.component.scss */
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+
+    label {
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    input {
+        padding: 8px;
+        margin-bottom: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    button {
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #0056b3;
+        }
+    }
+}
+.profile-container {
+    background-image: url('../../../assets/update.jpg');
+    background-size: cover;
+    background-position: center;
+    /* Add any other background properties as needed */
+    
+}

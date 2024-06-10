@@ -1,0 +1,28 @@
+<div class="tour-list" *ngIf="tours && tours.length">
+  <h2>Tour List</h2>
+  <div *ngFor="let tour of tours" class="tour-card">
+    <div class="tour-info">
+      <div *ngFor="let property of tourProperties(tour)" class="tour-info-item">
+        <p class="property-name">{{ property.name }}:</p>
+        <p class="property-value">{{ property.value }}</p>
+      </div>
+    </div>
+    <div *ngFor="let tourItem of tour.tourItems" class="tour-item">
+      <div class="exhibit-info">
+        <img [src]="tourItem.pictureUrl" alt="{{ tourItem.exhibitName }}">
+        <div class="details">
+          <h4>{{ tourItem.exhibitName }}</h4>
+          <p>Price: {{ tourItem.price }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="buttons">
+      <button [routerLink]="['/tours', tour.id]" class="btn btn-primary">View</button>
+      <button class="btn btn-danger" (click)="reserveTour(tour.id)">Reserve</button>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="!tours || tours.length === 0">
+  <p>No tour orders available.</p>
+</div>

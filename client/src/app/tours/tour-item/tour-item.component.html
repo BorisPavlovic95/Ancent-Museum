@@ -1,0 +1,12 @@
+<div class="tour-item" *ngIf="tourItem">
+  <div class="exhibit-info">
+    <img [src]="tourItem.pictureUrl" alt="{{ tourItem.exhibitName }}">
+    <div class="details">
+      <h4>{{ tourItem.exhibitName }}</h4>
+      <p>Price: {{ tourItem.price }}</p>
+    </div>
+  </div>
+  <div class="button-container">
+    <button class="btn btn-primary" (click)="viewTourDetails()">View</button>
+  </div>
+</div>

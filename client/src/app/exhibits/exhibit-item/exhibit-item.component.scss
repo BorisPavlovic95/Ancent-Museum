@@ -1,0 +1,92 @@
+
+.exhibit-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+    .image {
+        position: relative;
+
+        img {
+            width: 100%;
+            height: 300px; // Adjust as needed
+            object-fit: cover;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.7);
+            opacity: 0;
+            transition: all 0.5s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            button {
+                z-index: 1000;
+                transition: all 0.5s;
+            }
+
+            button:first-of-type {
+                transform: translateX(-20px);
+            }
+
+            button:last-of-type {
+                transform: translateX(20px);
+            }
+        }
+
+        &:hover {
+            .overlay {
+                opacity: 1;
+
+                button {
+                    transform: none;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    .card-body {
+        flex: 1;
+        display: grid;
+        grid-template-rows: auto auto 1fr;
+        gap: 10px; // Adjust as needed for spacing between rows
+
+        .text-uppercase {
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        h6 {
+            white-space: nowrap; /* Prevent text from breaking into two rows */
+            overflow: hidden; /* Hide overflowing text */
+            text-overflow: ellipsis; /* Display ellipsis (...) for overflow */
+
+            margin-bottom: 10px;
+        }
+
+        .details {
+            display: flex;
+            justify-content: space-between;
+
+            span {
+                white-space: nowrap;
+                margin-right: 20px; // Adjust as needed
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+        
+    }
+}

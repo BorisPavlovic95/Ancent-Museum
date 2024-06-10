@@ -1,0 +1,34 @@
+[
+  {
+    "Id": 1,
+    "Name": "Vessels"
+  },
+  {
+    "Id": 2,
+    "Name": "Tools and Equipment"
+  },
+  {
+    "Id": 3,
+    "Name": "Sculpture"
+  },
+  {
+    "Id": 4,
+    "Name": "Coins"
+  },
+  {
+    "Id": 5,
+    "Name": "Weapons and Ammunition"
+  },
+  {
+    "Id": 6,
+    "Name": "Armor"
+  },
+  {
+    "Id": 7,
+    "Name": "Jewelry"
+  },
+  {
+    "Id": 8,
+    "Name": "Textile Arts"
+  }
+]
